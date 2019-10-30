@@ -1,26 +1,21 @@
 //function dynamically rendering the html string
 
-function renderItems(images) {
-    const html = /*html*/`
+// function renderItems(creatures) {
+export default function generateCreatureItemHtmlString() {
+    const html = /*html*/ `
     <li class="creature-item">
         <div class="info-container">
-                <h2>${images.title}</h2>
-                <p class="images-type">${images.keyword}</p>
+                <h2>${creatures.title}</h2>
+                <p class="images-type">${creatures.keyword}</p>
         </div>
         <div class="image-container">
-                <img src="${images.url}" alt="${images.title} image">
+                <img src="${creatures.url}" alt="${creatures.title} image">
         </div>
-        <p class="num-horns">${images.horns}</p>
-        <p class="description">${images.description}</p>
+        <p class="num-horns">${creatures.horns}</p>
+        <p class="description">${creatures.description}</p>
     </li>
     `;
     return html;
 }
 
-export default renderItems; 
-
-
-
-
-
-
+// export default renderItems;

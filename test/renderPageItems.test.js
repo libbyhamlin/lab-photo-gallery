@@ -1,4 +1,4 @@
-import renderItems from '../renderPageItems.js';
+import generateCatItemHtmlString from '../renderPageItems.js';
 const test = QUnit.test;
 
 test('render image to display', assert => {
