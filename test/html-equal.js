@@ -1,5 +1,3 @@
-import './test/tests.js';
-
 const pattern = /[\f\n\r\t\v ]{2,}/g;
 const replacement = ' ';
 

@@ -1,2 +1,3 @@
 import './html-equal.js';
-import './renderImage.test.js';
+import './html-equal.test.js';
+import './renderPageItems.test.js';
