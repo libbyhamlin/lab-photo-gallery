@@ -26,7 +26,7 @@ test('render image to display', assert => {
     `;
 
   // act
-    const html = renderItems(images);
+    const html = generateCatItemHtmlString(images);
 
   // assert
     assert.htmlEqual(html, expected);

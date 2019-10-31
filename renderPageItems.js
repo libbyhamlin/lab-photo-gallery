@@ -1,7 +1,7 @@
 //function dynamically rendering the html string
 
 // function renderItems(creatures) {
-export default function generateCreatureItemHtmlString() {
+export default function generateCreatureItemHtmlString(creatures) {
     const html = /*html*/ `
     <li class="creature-item">
         <div class="info-container">

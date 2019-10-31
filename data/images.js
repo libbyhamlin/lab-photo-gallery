@@ -161,4 +161,4 @@ const creatures = [
     }
 ];
 
-export default images;
+export default creatures;
