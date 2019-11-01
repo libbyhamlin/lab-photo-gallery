@@ -33,7 +33,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #0a85f0;
+  background: rgb(43, 247, 124);
 }
 
 h1 {
@@ -65,7 +65,7 @@ section {
   height: 200px;
   width: 200px;
   min-width: 200px;
-  border: 2px solid rgb(43, 247, 124);;
+  border: 2px solid rgb(43, 247, 124);
   background-color: rgb(255, 255, 255);
   margin-top: 0px;
   margin-right: 5px;
