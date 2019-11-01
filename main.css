@@ -65,8 +65,8 @@ section {
   height: 200px;
   width: 200px;
   min-width: 200px;
-  border: 1px solid #aaa;
-  background-color: white;
+  border: 2px solid rgb(43, 247, 124);;
+  background-color: rgb(255, 255, 255);
   margin-top: 0px;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -80,7 +80,7 @@ section {
 
 .creaturesli .creature-type {
   font-size: 0.8em;
-  color: #555;
+  color: rgb(43, 247, 124);
 }
 
 .creaturesli .year {
