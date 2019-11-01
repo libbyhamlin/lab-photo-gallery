@@ -1,19 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet');
+
 body {
-    background-color: blueviolet;
-}
+  font-family: "Montserrat", sans-serif;
 
-nav {
-
-}
-
-#logo {
-
+  background: #f7faff;
+  margin: 0;
+  line-height: 1.5em;
 }
 
 h1 {
+  font-size: 2em;
+}
 
+h1,
+h2 {
+  font-family: "Fugaz One", cursive;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+main {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #0a85f0;
+}
+
+h1 {
+  margin: 0 20px;
+  flex-grow: 1;
 }
 
 .options {
-  
+  padding: 10px 0;
+}
+
+section {
+  margin: 20px auto;
+  width: 90%;
+  min-width: 650px;
+}
+
+.creatures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.creatures li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  min-width: 200px;
+  border: 1px solid #aaa;
+  background-color: white;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding: 5px;
+}
+
+.creaturesli h2 {
+  font-size: 1.5em;
+}
+
+.creaturesli .creature-type {
+  font-size: 0.8em;
+  color: #555;
+}
+
+.creaturesli .year {
+  font-size: 0.8em;
+}
+
+.image-container {
+  height: 50%;
+}
+
+.image-container img {
+  height: 100%;
+  object-fit: contain;
 }
