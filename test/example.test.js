@@ -1,9 +1,8 @@
-// IMPORT MODULES under test here:
-// import example from '../src/example.js';
+import generateCreatureItemHtmlString from '../home/render-cat-item.js';
 
 const test = QUnit.test;
 
-test('time to test a function', function(assert) {
+test('render html on page', function(assert) {
     //Arrange
     // Set up your parameters and expectations
 
